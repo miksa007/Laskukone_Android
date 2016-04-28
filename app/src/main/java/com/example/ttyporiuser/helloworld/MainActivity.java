@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.d(LOG_CAT, "nappulaa painettu");
                 luku=Integer.parseInt(editText.getText().toString());
-                luku+=Integer.parseInt(editText.getText().toString());
+                luku+=Integer.parseInt(editText2.getText().toString());
 
                 Log.d(LOG_CAT, "Summa on "+luku);
                 tulos.setText(""+luku);
